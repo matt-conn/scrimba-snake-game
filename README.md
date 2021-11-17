@@ -6,7 +6,7 @@ I remember playing snake game on my TI-83 Plus graphing calculator back in high 
 Following along with the lesson on Scrimba was a little confusing at first which is why I wrote a blog post walkthrough of the lesson. It helped nail down some of the concepts and I was better able to wrap my head around the *why* of the code.
 
 ## My Goals
-The following is a close approximation of the code in the lesson with some minor tweaks on my part. The instructor, Ania Kubow, left us with a blank canvas and my goal with this project was to style it my own style. 
+The following is a close approximation of the code in the lesson with some minor tweaks on my part. The instructor, Ania Kubow, left us with a blank canvas and my goal with this project was to make the style my own. 
 
 ## Play the Game
 [Play My Snake Game](https://conn-snake-game.netlify.app/)
