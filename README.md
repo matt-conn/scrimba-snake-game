@@ -9,13 +9,13 @@ Following along with the lesson on Scrimba was a little confusing at first which
 The following is a close approximation of the code in the lesson with some minor tweaks on my part. The instructor, Ania Kubow, left us with a blank canvas and my goal with this project was to style it my own style. 
 
 ## Play the Game
-[Play My Snake Game]()
+[Play My Snake Game](https://conn-snake-game.netlify.app/)
 
-[![Netlify Status]()]()
+[![Netlify Status](https://api.netlify.com/api/v1/badges/46e7a6f0-9562-4dd4-bf3b-6f93f19703cb/deploy-status)](https://app.netlify.com/sites/conn-snake-game/deploys)
 
 ## Screenshots
-### "Make it Your Own" Dice Game
+### My Snake Game
 ![My Snake Game](/images/my-snake-game.png)
 
-### Original Scrimba Dice Game
+### Scrimba Snake Game
 ![Scrimba Dice Game](/images/scrimba-snake-game.png)
