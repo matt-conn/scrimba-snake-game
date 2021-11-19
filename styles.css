@@ -1,3 +1,4 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -67,26 +68,50 @@ body {
     margin-bottom: 20px;
 }
 
-#start-btn {
+.mobile-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 25px;
+
+    padding: 5px 15px;
+    border: 3px solid var(--green-accent);
+    border-radius: 5px;
+
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--green-accent);
+
+    background-color: var(--green-main);
+
+    box-shadow: var(--shadow-elevation-medium);
+
+    cursor: pointer;
+}
+
+.btn:last-child {
+    margin-right: 0;
+}
+
+.btn-dpad {
+    background-color: var(--green-dark);
+    font-size: 25px;
+}
+
+.btn-start {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     padding: 15px 30px;
-    border: 3px solid var(--green-accent);
-    border-radius: 5px;
 
     box-shadow: var(--shadow-elevation-high);
-
-    font-family: monospace;
-    font-size: 15px;
-    font-weight: bold;
-    color: var(--green-accent);
-
-    background-color: var(--green-main);
-
-    cursor: pointer;
 }
 
 .scoreboard {
@@ -105,4 +130,20 @@ body {
 .apple {
     background-color: var(--red-apple);
     border-radius: 50%;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 409px) {
+    
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 700px) and (max-width: 909px) {
+    
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 910px) {
+    
 }

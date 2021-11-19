@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Snake Game 🐍</title>
+        <title>Snake Game</title>
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,14 @@
             <!-- grid for snake game -->
             <div class="grid">
                 <!-- start/restart button -->
-                <button id="start-btn">START</button>
+                <button class="btn btn-start" id="start-btn">START</button>
+            </div>
+
+            <div class="mobile-buttons">
+                <div class="btn btn-dpad" id="btn-up" aria-label="move snake up">&#8593;</div>
+                <div class="btn btn-dpad" id="btn-down" aria-label="move snake down">&#8595;</div>
+                <div class="btn btn-dpad" id="btn-left" aria-label="move snake left">&#8592;</div>
+                <div class="btn btn-dpad" id="btn-right" aria-label="move snake right">&#8594;</div>
             </div>
 
             <!-- player score -->
