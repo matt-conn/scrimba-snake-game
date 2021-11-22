@@ -98,6 +98,10 @@ body {
     margin-right: 0;
 }
 
+.btn:active {
+    box-shadow: var(--shadow-elevation-low);
+}
+
 .btn-dpad {
     background-color: var(--green-dark);
     font-size: 25px;
@@ -135,15 +139,45 @@ body {
 
 /* Mobile Styles */
 @media only screen and (max-width: 409px) {
+    .game-title {
+        font-size: 100px;
+        margin-bottom: 10px;
+    }
     
-}
+    .control-buttons {
+        margin-bottom: 20px;
+    }
 
-/* Tablet Styles */
-@media only screen and (min-width: 700px) and (max-width: 909px) {
+    .grid {
+        width: 250px;
+        height: 250px;
     
-}
+        margin-bottom: 40px;
+    }
 
-/* Desktop Styles */
-@media only screen and (min-width: 910px) {
+    .square {
+        width: 25px;
+        height: 25px;
+    }
+
+    .control-buttons {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-right: 15px;
     
+        padding: 5px 15px;
+        border: 3px solid var(--green-accent);
+        border-radius: 5px;
+    
+        font-family: monospace;
+        font-size: 20px;
+    }
+
+    .scoreboard {
+        font-size: 35px;
+    }
 }

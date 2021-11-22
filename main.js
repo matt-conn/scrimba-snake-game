@@ -1,5 +1,9 @@
 const gameGrid = document.querySelector('.grid');
 const startButton = document.getElementById('start-btn');
+const btnUp = document.getElementById('btn-up');
+const btnDown = document.getElementById('btn-down');
+const btnLeft = document.getElementById('btn-left');
+const btnRight = document.getElementById('btn-right');
 let scoreDisplay = document.getElementById('player-score');
 let squares = [];
 let snake = [2, 1, 0];
@@ -32,7 +36,8 @@ function createGrid() {
 
 createGrid(); 
 
-snake.forEach(index => squares[index].classList.add('snake'));
+// show / hide initial snake on page load
+// snake.forEach(index => squares[index].classList.add('snake'));
 
 startButton.addEventListener('click', startGame);
 
@@ -146,3 +151,20 @@ function control(event) {
             return;
     }
 }
+
+// d-pad buttons
+btnUp.addEventListener('click', function() {
+    direction = -width;
+});
+
+btnDown.addEventListener('click', function() {
+    direction = +width;
+});
+
+btnLeft.addEventListener('click', function() {
+    direction = -1;
+});
+
+btnRight.addEventListener('click', function() {
+    direction = 1;
+});
