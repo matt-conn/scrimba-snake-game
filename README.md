@@ -8,12 +8,17 @@ Following along with the lesson on Scrimba was a little confusing at first which
 ## My Goals
 The following is a close approximation of the code in the lesson with some minor tweaks on my part. The instructor, Ania Kubow, left us with a blank canvas and my goal with this project was to make the style my own. 
 
+*11-22-2021 Update:* Update game to include buttons for playing on mobile. Reduce size of game board to better fit mobile screens.
+
 ## Play the Game
 [Play My Snake Game](https://conn-snake-game.netlify.app/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46e7a6f0-9562-4dd4-bf3b-6f93f19703cb/deploy-status)](https://app.netlify.com/sites/conn-snake-game/deploys)
 
 ## Screenshots
+### My Snake Game - With Mobile Buttons
+![My Snake Game](/images/my-snake-game-mobile.png)
+
 ### My Snake Game
 ![My Snake Game](/images/my-snake-game.png)
 
